@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cf:build": "@cloudflare/next-on-pages"
   },
   "dependencies": {
     "@types/node": "18.11.9",
@@ -18,5 +19,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.3"
+  },
+  "devDependencies": {
+    "@cloudflare/next-on-pages": "^0.2.0",
+    "vercel": "^28.5.5"
   }
 }
